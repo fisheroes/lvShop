@@ -69,7 +69,7 @@
         <br>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 text-center">
+                <div class="col-md-6">
                     <table class="table table-borderless" style="color: whitesmoke; font-size: 16px">
                         <tr class="remove-border">
                             <td></td>
@@ -91,7 +91,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="col-md-6 text-center">
+                <div class="col-md-6">
                     <table class="table table-borderless" style="color: whitesmoke">
                         <tr class="remove-border text-center" style="font-size: 20px">
                             <td colspan="3">Social Media Link</td>
