@@ -11,8 +11,7 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.copyDirectory('node_modules/bootstrap/dist/fonts', 'public/fonts')
-   .copyDirectory('node_modules/font-awesome/fonts', 'public/fonts')
+mix.copyDirectory('node_modules/font-awesome/fonts', 'public/fonts')
    .styles([
             'node_modules/bootstrap/dist/css/bootstrap.min.css',
             'node_modules/font-awesome/css/font-awesome.css'

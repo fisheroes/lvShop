@@ -2,106 +2,67 @@
 @section('content')
 
 <style>
-    .carousel{
-        background: #000000;
-    }
-    .carousel .item{   
-        height: 300px;
-    }
-    .carousel .item img{
-        margin: 0 auto;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
+    .product-slider #carousel { border: 3px solid slateblue; height: 500px; background: #000000; }
+
+    .product-slider #thumbcarousel { margin: 5px 0 0; padding: 0 25px; }
+
+    .product-slider #thumbcarousel .carousel-item { text-align: center; }
+
+    .product-slider #thumbcarousel .carousel-item .thumb { border: 3px solid transparent; width: 100%; margin: 1px 1px; display: inline-block; vertical-align: middle; cursor: pointer; max-width: 75px; }
+
+    .product-slider #thumbcarousel .carousel-item .thumb:hover { border-color: violet; }
+
+    .product-slider #thumb img { width: 100%; height: auto; margin: auto; }
+    
+    .product-slider .carousel-item img { margin: auto; margin-top: 50px; margin-bottom: 50px;}
 </style>
 
-<div class="row">
-    <div class="col-md-5">
-        <div class="jumbotron">
-            <div class="container">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol>
-
-  <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img src="img/1.jpg" alt="Example 1">
-                        </div>
-
-                        <div class="item">
-                            <img src="img/2.jpg" alt="Example 2">
-                        </div>
-
-                        <div class="item">
-                            <img src="img/3.jpg" alt="Example 3">
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="jumbotron" style="height: 700px">
+                <div class="product-slider">
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active"><img class="d-block" src="img/1.jpg"></div>
+                            <div class="carousel-item"><img class="d-block" src="img/2.jpg"></div>
+                            <div class="carousel-item"><img class="d-block" src="img/3.jpg"></div>
+                            <div class="carousel-item"><img class="d-block" src="img/logo.jpg"></div>
                         </div>
                     </div>
-
-  <!-- Left and right controls -->
-                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                       <span class="sr-only">Next</span>
-                    </a>
+                    <div class="clearfix">
+                        <div id="thumbcarousel" class="carousel slide" data-interval="false">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div data-target="#carousel" data-slide-to="0" id="thumb" class="thumb"><img src="img/1.jpg"></div>
+                                    <div data-target="#carousel" data-slide-to="1" id="thumb" class="thumb"><img src="img/2.jpg"></div>
+                                    <div data-target="#carousel" data-slide-to="2" id="thumb" class="thumb"><img src="img/3.jpg"></div>
+                                    <div data-target="#carousel" data-slide-to="3" id="thumb" class="thumb"><img src="img/1.jpg"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="col-md-5">
-        <table class="well table table-borderless table-responsive">
-                <tr>
-                    <td width="125">Nama Barang</td>
-                    <td width="1"> : </td>
-                    <td>Gelang</td>
-                </tr>
-                <tr>
-                    <td>Bahan</td>
-                    <td width="1"> : </td>
-                    <td>Sutra</td>
-                </tr>
-                <tr>
-                    <td rowspan="3">Deskripsi</td>
-                    <td width="1"> : </td>
-                    <td>Begini</td>
-                </tr>
-                <tr style="border: hidden">
-                    <td></td>
-                    <td>Begitu</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Begimana</td>
-                </tr>
-                <tr style="border-bottom: hidden">
-                    <td>Harga</td>
-                    <td width="1"> : </td>
-                    <td>100,000</td>
-                </tr>
-                <tr class="text-center">
-                    <td></td>
-                    <td colspan="2">
-                        <a href="#" class="btn btn-danger btn-sm">
-                            <i class="glyphicon glyphicon-search"></i>
-                             Add to Chart
-                        </a>
-                    </td>
-                    <td colspan="2">
-                        <a href="#" class="btn btn-danger btn-sm">
-                            <i class="glyphicon glyphicon-search"></i>
-                             BUY
-                        </a>
-                    </td>
-                </tr>
-        </table>
+    
+        <div class="col-md-6">
+            <div class="jumbotron text-center" style="height: 700px">
+                <p><b><u>Nama Barang</u></b></p>
+                <p>dslkajdlsa</p>
+                <p><b><u>Bahan</u></b></p>
+                <p>dsadsadsadsadsad</p>
+                <p><b><u>Dimensi</u></b></p>
+                <p>dsadasdsadsadsad</p>
+                <p><b><u>Keterangan</u></b></p>
+                <p>dsadsadsad sadsadsad sadassssss sssssssssssss ssssssssssss ssssssss dsaaaaaaaa</p>
+                <p><b><u>Harga</u></b></p>
+                <p>dsadsadsadsadsadsad</p>
+                <p>
+                    <button type="button" class="btn btn-warning"><i class="fa fa-cart-plus"></i> Add to Chart</button>   <button type="button" class="btn btn-success"><i class="fa fa-dollar"></i> BUY Now !</button>    
+                </p>
+            </div>
+        </div>
     </div>
 </div>
-
 @endsection
