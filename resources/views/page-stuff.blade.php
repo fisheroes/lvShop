@@ -8,13 +8,13 @@
 
     .product-slider #thumbcarousel .carousel-item { text-align: center; }
 
-    .product-slider #thumbcarousel .carousel-item .thumb { border: 3px solid transparent; width: 100%; margin: 1px 1px; display: inline-block; vertical-align: middle; cursor: pointer; max-width: 75px; }
+    .product-slider #thumbcarousel .carousel-item .thumb { border: 3px solid transparent; width: 100%; margin: 1px 1px; display: inline-block; vertical-align: middle; cursor: pointer; max-width: 75px; max-height: 75px }
 
     .product-slider #thumbcarousel .carousel-item .thumb:hover { border-color: violet; }
 
     .product-slider #thumb img { width: 100%; height: auto; margin: auto; }
     
-    .product-slider .carousel-item img { margin: auto; margin-top: 50px; margin-bottom: 50px;}
+    .product-slider .carousel-item img { margin: auto}
 </style>
 
 <div class="container">
@@ -34,10 +34,10 @@
                         <div id="thumbcarousel" class="carousel slide" data-interval="false">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <div data-target="#carousel" data-slide-to="0" id="thumb" class="thumb"><img src="img/1.jpg"></div>
-                                    <div data-target="#carousel" data-slide-to="1" id="thumb" class="thumb"><img src="img/2.jpg"></div>
-                                    <div data-target="#carousel" data-slide-to="2" id="thumb" class="thumb"><img src="img/3.jpg"></div>
-                                    <div data-target="#carousel" data-slide-to="3" id="thumb" class="thumb"><img src="img/1.jpg"></div>
+                                    <div data-target="#carousel" data-slide-to="0" id="thumb" class="thumb"><img src="img/01.jpg"></div>
+                                    <div data-target="#carousel" data-slide-to="1" id="thumb" class="thumb"><img src="img/02.jpg"></div>
+                                    <div data-target="#carousel" data-slide-to="2" id="thumb" class="thumb"><img src="img/03.jpg"></div>
+                                    <div data-target="#carousel" data-slide-to="3" id="thumb" class="thumb"><img src="img/04.jpg"></div>
                                 </div>
                             </div>
                         </div>

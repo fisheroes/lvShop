@@ -4,20 +4,14 @@
 .carousel{
     background: #000000;
 }
-.carousel .item{
-    height: 100px;
-}
 .carousel .carousel-item img{
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin: 0 0 50px 0;
+    width: 100%;
+    max-width: 100%;
 }
 .img-home {
-    margin-right: 100px;
-    width: 200px;
     max-width: 100%;
     height: auto;
-    object-fit: cover;
 }
 </style>
 
@@ -71,12 +65,12 @@
             <table class="well table table-borderless" height="300">
                 <tbody>
                     <tr>
-                        <td rowspan="4" width="1">
+                        <td rowspan="3" colspan="2">
                             <img class="img-home" src="img/01.jpg">
                         </td>
-                        <td width="120">Nama Barang</td>
+                        <td width="125">Nama Barang</td>
                         <td width="1"> : </td>
-                        <td>Wooden Poster</td>
+                        <td width="125">Wooden Poster</td>
                     </tr>
                     <tr>
                         <td>Harga</td>
@@ -84,7 +78,7 @@
                         <td>100,000</td>
                     </tr>
                     <tr>
-                        <td colspan="3">
+                        <td colspan="2">
                             <a href="page-stuff" class="btn btn-danger btn-sm">
                                 <i class="fa fa-info"></i>
                                  Detail Barang
@@ -99,12 +93,12 @@
             <table class="table table-borderless" height="300">
                 <tbody>
                     <tr>
-                        <td rowspan="4" width="1">
+                        <td rowspan="3" colspan="2">
                             <img class="img-home" src="img/02.jpg">
                         </td>
-                        <td width="120">Nama Barang</td>
+                        <td width="125">Nama Barang</td>
                         <td width="1"> : </td>
-                        <td>Bracelet</td>
+                        <td width="125">Bracelet</td>
                     </tr>
                     <tr>
                         <td>Harga</td>
@@ -112,7 +106,7 @@
                         <td>100,000</td>
                     </tr>
                     <tr>
-                        <td colspan="3">
+                        <td colspan="2">
                             <a href="page-stuff" class="btn btn-danger btn-sm">
                                 <i class="fa fa-info"></i>
                                  Detail Barang
@@ -127,12 +121,12 @@
             <table class="table table-borderless" height="300">
                 <tbody>
                     <tr>
-                        <td rowspan="4" width="1">
+                        <td rowspan="3" colspan="2">
                             <img class="img-home" src="img/03.jpg">
                         </td>
-                        <td width="120">Nama Barang</td>
+                        <td width="125">Nama Barang</td>
                         <td width="1"> : </td>
-                        <td>Leather Bracelet</td>
+                        <td width="125">Leather Bracelet</td>
                     </tr>
                     <tr>
                         <td>Harga</td>
@@ -140,7 +134,7 @@
                         <td>100,000</td>
                     </tr>
                     <tr>
-                        <td colspan="3">
+                        <td colspan="2">
                             <a href="page-stuff" class="btn btn-danger btn-sm">
                                 <i class="fa fa-info"></i>
                                  Detail Barang
@@ -155,12 +149,12 @@
             <table class="table table-borderless" height="300">
                 <tbody>
                     <tr>
-                        <td rowspan="4" width="1">
+                        <td rowspan="3" colspan="2">
                             <img class="img-home" src="img/04.jpg">
                         </td>
-                        <td width="120">Nama Barang</td>
+                        <td width="125">Nama Barang</td>
                         <td width="1"> : </td>
-                        <td>Key Chain</td>
+                        <td width="125">Key Chain</td>
                     </tr>
                     <tr>
                         <td>Harga</td>
@@ -168,7 +162,7 @@
                         <td>100,000</td>
                     </tr>
                     <tr>
-                        <td colspan="3">
+                        <td colspan="2">
                             <a href="page-stuff" class="btn btn-danger btn-sm">
                                 <i class="fa fa-info"></i>
                                  Detail Barang

@@ -27,6 +27,9 @@
             max-width: 100%;
             height: auto;
         }
+        .fa {
+            color: gray;
+        }
     </style>
     <body>
         <nav class="navbar fixed-top navbar-expand-md navbar-dark align-items-end" style="background-color: black">
