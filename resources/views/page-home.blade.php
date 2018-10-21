@@ -13,7 +13,7 @@
     margin-bottom: 100px;
 }
 .img-home {
-    margin-right: 200px;
+    margin-right: 100px;
     width: 200px;
     max-width: 100%;
     height: auto;
@@ -63,7 +63,7 @@
     <div class="row">
         
         <div class="col-sm-6">
-            <table class="table table-borderless" height="300">
+            <table class="well table table-borderless" height="300">
                 <tbody>
                     <tr>
                         <td rowspan="4" width="1">
