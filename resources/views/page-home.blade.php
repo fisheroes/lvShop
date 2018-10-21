@@ -13,7 +13,7 @@
     margin-bottom: 100px;
 }
 .img-home {
-    margin-right: 100px;
+    margin-right: 150px;
     width: 200px;
     max-width: 100%;
     height: auto;

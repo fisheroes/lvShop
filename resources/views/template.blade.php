@@ -39,8 +39,8 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav mr-auto">
+            <div class="collapse navbar-collapse navbar-left" id="collapsibleNavbar">
+                <ul class="navbar-nav navbar-left">
                     <li class="nav-item">
                         <a class="nav-link" href="page-home"><span class="fa fa-home"></span> Home</a>
                     </li>
@@ -62,7 +62,7 @@
                 </ul>
             </div>
             
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav navbar-right">
                 <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-user-plus"></span> Sign Up</a></li>
                 <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-user"></span> Login</a></li>
             </ul>
