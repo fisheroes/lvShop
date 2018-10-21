@@ -11,8 +11,10 @@
 }
 .img-home {
     width: 250px;
+    height: 250px;
     max-width: 100%;
     height: auto;
+    object-fit: cover;
 }
 </style>
 
