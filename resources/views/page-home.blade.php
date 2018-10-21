@@ -62,7 +62,7 @@
     <hr>
     <div class="row">
         
-        <div class="col-md-6">
+        <div class="col-sm-6">
             <table class="table table-borderless" height="300">
                 <tbody>
                     <tr>
@@ -95,7 +95,7 @@
             </table>
         </div>
         
-        <div class="col-md-6">
+        <div class="col-sm-6">
             <table class="table table-borderless" height="300">
                 <tbody>
                     <tr>
@@ -128,7 +128,7 @@
             </table>
         </div>
         
-        <div class="col-md-6">
+        <div class="col-sm-6">
             <table class="table table-borderless" height="300">
                 <tbody>
                     <tr>
@@ -161,7 +161,7 @@
             </table>
         </div>
         
-        <div class="col-md-6">
+        <div class="col-sm-6">
             <table class="table table-borderless" height="300">
                 <tbody>
                     <tr>

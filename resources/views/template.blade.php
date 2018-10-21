@@ -30,7 +30,7 @@
         }
     </style>
     <body>
-        <nav class="navbar fixed-top navbar-expand-sm navbar-dark align-items-end" style="background-color: black">
+        <nav class="navbar fixed-top navbar-collapse navbar-expand-sm navbar-dark align-items-end" style="background-color: black">
             <i class="navbar-brand">
                 <img src="img/logo.jpg">
             </i>
