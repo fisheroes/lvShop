@@ -2,7 +2,7 @@
 @section('content')
 
 <style>
-    .product-slider #carousel { border: 3px solid slateblue; height: 500px; background: #000000; }
+    .product-slider #carousel { border: 3px solid slateblue; background: #000000; }
 
     .product-slider #thumbcarousel { margin: auto; padding: auto; }
 

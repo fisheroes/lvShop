@@ -10,11 +10,8 @@
     max-width: 100%;
 }
 .img-home {
-    width: 250px;
-    height: 250px;
-    max-width: 100%;
+    max-width: 250px;
     height: auto;
-    object-fit: cover;
 }
 </style>
 
@@ -68,7 +65,7 @@
             <table class="well table table-borderless" height="300">
                 <tbody>
                     <tr>
-                        <td rowspan="3" colspan="2">
+                        <td rowspan="3" colspan="2" width="250">
                             <img class="img-home" src="img/01.jpg">
                         </td>
                         <td width="125">Nama Barang</td>
