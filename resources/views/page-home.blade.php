@@ -29,20 +29,25 @@
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
             </ol>
 
   <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block" src="img/1.jpg" alt="Example 1">
+                    <img class="d-block" src="img/01.jpg" alt="Example 1">
                 </div>
 
                 <div class="carousel-item">
-                    <img class="d-block" src="img/2.jpg" alt="Example 2">
+                    <img class="d-block" src="img/02.jpg" alt="Example 2">
                 </div>
 
                 <div class="carousel-item">
-                    <img class="d-block" src="img/3.jpg" alt="Example 3">
+                    <img class="d-block" src="img/03.jpg" alt="Example 3">
+                </div>
+                
+                <div class="carousel-item">
+                    <img class="d-block" src="img/04.jpg" alt="Example 3">
                 </div>
             </div>
 
@@ -62,21 +67,16 @@
     <hr>
     <div class="row">
         
-        <div class="col-sm-6">
+        <div class="col-md-6">
             <table class="well table table-borderless" height="300">
                 <tbody>
                     <tr>
                         <td rowspan="4" width="1">
-                            <img class="img-home" src="img/1.jpg">
+                            <img class="img-home" src="img/01.jpg">
                         </td>
                         <td width="120">Nama Barang</td>
                         <td width="1"> : </td>
-                        <td>Gelang</td>
-                    </tr>
-                    <tr>
-                        <td>Bahan</td>
-                        <td width="1"> : </td>
-                        <td>Sutra</td>
+                        <td>Wooden Poster</td>
                     </tr>
                     <tr>
                         <td>Harga</td>
@@ -95,21 +95,16 @@
             </table>
         </div>
         
-        <div class="col-sm-6">
+        <div class="col-md-6">
             <table class="table table-borderless" height="300">
                 <tbody>
                     <tr>
                         <td rowspan="4" width="1">
-                            <img class="img-home" src="img/2.jpg">
+                            <img class="img-home" src="img/02.jpg">
                         </td>
                         <td width="120">Nama Barang</td>
                         <td width="1"> : </td>
-                        <td>Gelang</td>
-                    </tr>
-                    <tr>
-                        <td>Bahan</td>
-                        <td width="1"> : </td>
-                        <td>Sutra</td>
+                        <td>Bracelet</td>
                     </tr>
                     <tr>
                         <td>Harga</td>
@@ -128,21 +123,16 @@
             </table>
         </div>
         
-        <div class="col-sm-6">
+        <div class="col-md-6">
             <table class="table table-borderless" height="300">
                 <tbody>
                     <tr>
                         <td rowspan="4" width="1">
-                            <img class="img-home" src="img/3.jpg">
+                            <img class="img-home" src="img/03.jpg">
                         </td>
                         <td width="120">Nama Barang</td>
                         <td width="1"> : </td>
-                        <td>Gelang</td>
-                    </tr>
-                    <tr>
-                        <td>Bahan</td>
-                        <td width="1"> : </td>
-                        <td>Sutra</td>
+                        <td>Leather Bracelet</td>
                     </tr>
                     <tr>
                         <td>Harga</td>
@@ -161,21 +151,16 @@
             </table>
         </div>
         
-        <div class="col-sm-6">
+        <div class="col-md-6">
             <table class="table table-borderless" height="300">
                 <tbody>
                     <tr>
                         <td rowspan="4" width="1">
-                            <img class="img-home" src="img/logo.jpg">
+                            <img class="img-home" src="img/04.jpg">
                         </td>
                         <td width="120">Nama Barang</td>
                         <td width="1"> : </td>
-                        <td>Gelang</td>
-                    </tr>
-                    <tr>
-                        <td>Bahan</td>
-                        <td width="1"> : </td>
-                        <td>Sutra</td>
+                        <td>Key Chain</td>
                     </tr>
                     <tr>
                         <td>Harga</td>

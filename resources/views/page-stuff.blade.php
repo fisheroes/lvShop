@@ -24,10 +24,10 @@
                 <div class="product-slider">
                     <div id="carousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active"><img class="d-block" src="img/1.jpg"></div>
-                            <div class="carousel-item"><img class="d-block" src="img/2.jpg"></div>
-                            <div class="carousel-item"><img class="d-block" src="img/3.jpg"></div>
-                            <div class="carousel-item"><img class="d-block" src="img/logo.jpg"></div>
+                            <div class="carousel-item active"><img class="d-block" src="img/01.jpg"></div>
+                            <div class="carousel-item"><img class="d-block" src="img/02.jpg"></div>
+                            <div class="carousel-item"><img class="d-block" src="img/03.jpg"></div>
+                            <div class="carousel-item"><img class="d-block" src="img/04.jpg"></div>
                         </div>
                     </div>
                     <div class="clearfix">

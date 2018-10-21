@@ -7,7 +7,6 @@
     </head>
     <style>
         .navbar-brand {
-            position: relative;
             width: 200px;
             height : 50px;
             margin-bottom: 50px;
@@ -30,7 +29,7 @@
         }
     </style>
     <body>
-        <nav class="navbar fixed-top navbar-expand-sm navbar-dark align-items-end" style="background-color: black">
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark align-items-end" style="background-color: black">
             <i class="navbar-brand">
                 <img src="img/logo.jpg">
             </i>
@@ -39,18 +38,18 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             
-            <div class="collapse navbar-collapse mr-auto" id="collapsibleNavbar">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="page-home"><span class="fa fa-home"></span> Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><span class="fa fa-tag"></span> Discover our Original Stuff <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="page-stuff">Custom Bracelet</a></li>
                             <li><a class="dropdown-item" href="page-stuff">Wooden Poster</a></li>
-                            <li><a class="dropdown-item" href="page-stuff">IDK</a></li>
-                            <li><a class="dropdown-item" href="page-stuff">IDK</a></li>
+                            <li><a class="dropdown-item" href="page-stuff">Bracelet</a></li>
+                            <li><a class="dropdown-item" href="page-stuff">Leather Bracelet</a></li>
+                            <li><a class="dropdown-item" href="page-stuff">Key Chain</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -60,8 +59,6 @@
                         <a class="nav-link" href="page-about"><span class="fa fa-adn"></span> About US</a>
                     </li>
                 </ul>
-            </div>
-            <div class="ml-auto">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-user-plus"></span> Sign Up</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-user"></span> Login</a></li>
@@ -76,14 +73,14 @@
         <br>
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-md-12">
                     <table class="table table-borderless">
                         <tr class="remove-border text-center" style="font-size: 24px">
                             <td><i><img class="footer-image" src="img/logo.jpg"></i></td>
                         </tr>
                     </table>
                 </div>
-                <div class="col-sm-12">
+                <div class="col-md-12">
                     <table class="table table-borderless" style="color: whitesmoke">
                         <tr class="remove-border text-center" style="font-size: 36px">
                             <td><a href="#"><i class="fa fa-facebook"></i></a></td>
@@ -96,12 +93,12 @@
                     </table>
                 </div>
             </div>
-            <div class="col-sm-12">
+            <div class="col-md-12">
                 <table class="table table-borderless">
                     <tr class="remove-border text-center" style="font-size: 24px">
                         <td><p style="font-size: 12px; font-weight: bolder;">COPYRIGHT 2018 @FFX</p></td>
-                    </tr><br><br>
-                </table>
+                    </tr>
+                </table><br>
             </div>
         </div>
     </footer>
