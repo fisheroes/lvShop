@@ -20,7 +20,7 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-6">
-            <div class="jumbotron" style="height: 700px">
+            <div class="jumbotron">
                 <div class="product-slider">
                     <div id="carousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
@@ -47,7 +47,7 @@
         </div>
     
         <div class="col-sm-6">
-            <div class="jumbotron text-center" style="height: 700px">
+            <div class="jumbotron text-center">
                 <p><b><u>Nama Barang</u></b></p>
                 <p>dslkajdlsa</p>
                 <p><b><u>Bahan</u></b></p>

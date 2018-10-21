@@ -65,12 +65,12 @@
             <table class="well table table-borderless" height="300">
                 <tbody>
                     <tr>
-                        <td rowspan="3" colspan="2" width="250">
+                        <td rowspan="3" colspan="2">
                             <img class="img-home" src="img/01.jpg">
                         </td>
-                        <td width="125">Nama Barang</td>
+                        <td>Nama Barang</td>
                         <td width="1"> : </td>
-                        <td width="125">Wooden Poster</td>
+                        <td>Wooden Poster</td>
                     </tr>
                     <tr>
                         <td>Harga</td>
@@ -96,9 +96,9 @@
                         <td rowspan="3" colspan="2">
                             <img class="img-home" src="img/02.jpg">
                         </td>
-                        <td width="125">Nama Barang</td>
+                        <td>Nama Barang</td>
                         <td width="1"> : </td>
-                        <td width="125">Bracelet</td>
+                        <td>Bracelet</td>
                     </tr>
                     <tr>
                         <td>Harga</td>
@@ -124,9 +124,9 @@
                         <td rowspan="3" colspan="2">
                             <img class="img-home" src="img/03.jpg">
                         </td>
-                        <td width="125">Nama Barang</td>
+                        <td>Nama Barang</td>
                         <td width="1"> : </td>
-                        <td width="125">Leather Bracelet</td>
+                        <td>Leather Bracelet</td>
                     </tr>
                     <tr>
                         <td>Harga</td>
@@ -152,9 +152,9 @@
                         <td rowspan="3" colspan="2">
                             <img class="img-home" src="img/04.jpg">
                         </td>
-                        <td width="125">Nama Barang</td>
+                        <td>Nama Barang</td>
                         <td width="1"> : </td>
-                        <td width="125">Key Chain</td>
+                        <td>Key Chain</td>
                     </tr>
                     <tr>
                         <td>Harga</td>
