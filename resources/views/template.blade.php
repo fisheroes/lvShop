@@ -39,7 +39,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             
-            <div class="collapse navbar-collapse navbar-left" id="collapsibleNavbar">
+            <div class="collapse navbar-collapse mr-auto" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="page-home"><span class="fa fa-home"></span> Home</a>
@@ -61,7 +61,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="navbar-right">
+            <div class="ml-auto">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-user-plus"></span> Sign Up</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-user"></span> Login</a></li>
@@ -76,14 +76,14 @@
         <br>
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-sm-12">
                     <table class="table table-borderless">
                         <tr class="remove-border text-center" style="font-size: 24px">
                             <td><i><img class="footer-image" src="img/logo.jpg"></i></td>
                         </tr>
                     </table>
                 </div>
-                <div class="col-md-12">
+                <div class="col-sm-12">
                     <table class="table table-borderless" style="color: whitesmoke">
                         <tr class="remove-border text-center" style="font-size: 36px">
                             <td><a href="#"><i class="fa fa-facebook"></i></a></td>
@@ -96,11 +96,11 @@
                     </table>
                 </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-sm-12">
                 <table class="table table-borderless">
                     <tr class="remove-border text-center" style="font-size: 24px">
                         <td><p style="font-size: 12px; font-weight: bolder;">COPYRIGHT 2018 @FFX</p></td>
-                    </tr>
+                    </tr><br><br>
                 </table>
             </div>
         </div>
