@@ -6,6 +6,15 @@
         <script type="text/javascript" src="{{ asset('js/all.js') }}"></script>
     </head>
     <style>
+        @font-face {
+            font-family: customFont;
+            src: url(fonts/custom/ArimaMadurai-Medium.otf);
+        }
+        html, body {
+            font-family: customFont; /*Specify your font name here*/
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
         .navbar-brand {
             width: 200px;
             height : 50px;
@@ -27,8 +36,8 @@
             max-width: 100%;
             height: auto;
         }
-        .fa {
-            color: gray;
+        footer .fa {
+            color: white;
         }
     </style>
     <body>
@@ -101,7 +110,7 @@
                     <tr class="remove-border text-center" style="font-size: 24px">
                         <td><p style="font-size: 12px; font-weight: bolder;">COPYRIGHT 2018 @FFX</p></td>
                     </tr>
-                </table><br>
+                </table>
             </div>
         </div>
     </footer>

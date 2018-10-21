@@ -79,7 +79,7 @@
                     </tr>
                     <tr>
                         <td colspan="2">
-                            <a href="page-stuff" class="btn btn-danger btn-sm">
+                            <a href="page-stuff" class="btn btn-info btn-sm">
                                 <i class="fa fa-info"></i>
                                  Detail Barang
                             </a>
@@ -107,7 +107,7 @@
                     </tr>
                     <tr>
                         <td colspan="2">
-                            <a href="page-stuff" class="btn btn-danger btn-sm">
+                            <a href="page-stuff" class="btn btn-info btn-sm">
                                 <i class="fa fa-info"></i>
                                  Detail Barang
                             </a>
@@ -135,7 +135,7 @@
                     </tr>
                     <tr>
                         <td colspan="2">
-                            <a href="page-stuff" class="btn btn-danger btn-sm">
+                            <a href="page-stuff" class="btn btn-info btn-sm">
                                 <i class="fa fa-info"></i>
                                  Detail Barang
                             </a>
@@ -163,7 +163,7 @@
                     </tr>
                     <tr>
                         <td colspan="2">
-                            <a href="page-stuff" class="btn btn-danger btn-sm">
+                            <a href="page-stuff" class="btn btn-info btn-sm">
                                 <i class="fa fa-info"></i>
                                  Detail Barang
                             </a>
