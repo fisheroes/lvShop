@@ -40,7 +40,7 @@
             </button>
             
             <div class="collapse navbar-collapse navbar-left" id="collapsibleNavbar">
-                <ul class="navbar-nav navbar-left">
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="page-home"><span class="fa fa-home"></span> Home</a>
                     </li>
@@ -61,11 +61,12 @@
                     </li>
                 </ul>
             </div>
-            
-            <ul class="navbar-nav navbar-right">
-                <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-user-plus"></span> Sign Up</a></li>
-                <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-user"></span> Login</a></li>
-            </ul>
+            <div class="navbar-right">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-user-plus"></span> Sign Up</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-user"></span> Login</a></li>
+                </ul>
+            </div>
         </nav>
         <br><br><br><br><br><br>
         @section('content')
