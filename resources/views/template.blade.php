@@ -30,30 +30,38 @@
         }
     </style>
     <body>
-        <nav class="navbar fixed-top navbar-collapse navbar-expand-sm navbar-dark align-items-end" style="background-color: black">
+        <nav class="navbar fixed-top navbar-expand-sm navbar-dark align-items-end" style="background-color: black">
             <i class="navbar-brand">
                 <img src="img/logo.jpg">
             </i>
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="page-home"><span class="fa fa-home"></span> Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><span class="fa fa-tag"></span> Discover our Original Stuff <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="page-stuff">Custom Bracelet</a></li>
-                        <li><a class="dropdown-item" href="page-stuff">Wooden Poster</a></li>
-                        <li><a class="dropdown-item" href="page-stuff">IDK</a></li>
-                        <li><a class="dropdown-item" href="page-stuff">IDK</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="page-order"><span class="fa fa-check"></span> How to Order</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="page-about"><span class="fa fa-adn"></span> About US</a>
-                </li>
-            </ul>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="page-home"><span class="fa fa-home"></span> Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><span class="fa fa-tag"></span> Discover our Original Stuff <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="page-stuff">Custom Bracelet</a></li>
+                            <li><a class="dropdown-item" href="page-stuff">Wooden Poster</a></li>
+                            <li><a class="dropdown-item" href="page-stuff">IDK</a></li>
+                            <li><a class="dropdown-item" href="page-stuff">IDK</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page-order"><span class="fa fa-check"></span> How to Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page-about"><span class="fa fa-adn"></span> About US</a>
+                    </li>
+                </ul>
+            </div>
+            
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-user-plus"></span> Sign Up</a></li>
                 <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-user"></span> Login</a></li>
