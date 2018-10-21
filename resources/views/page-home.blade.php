@@ -10,6 +10,7 @@
     max-width: 100%;
 }
 .img-home {
+    width: 250px;
     max-width: 100%;
     height: auto;
 }

@@ -4,7 +4,7 @@
 <style>
     .product-slider #carousel { border: 3px solid slateblue; height: 500px; background: #000000; }
 
-    .product-slider #thumbcarousel { margin: 5px 0 0; padding: 0 25px; }
+    .product-slider #thumbcarousel { margin: auto; padding: auto; }
 
     .product-slider #thumbcarousel .carousel-item { text-align: center; }
 
