@@ -9,9 +9,17 @@
     width: 100%;
     max-width: 100%;
 }
-.img-home {
-    width: auto;
-    height: auto;
+#img-block {
+    position: relative;
+    max-width: 100%;
+}
+.text-block {
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 </style>
 
@@ -62,115 +70,35 @@
     <div class="row">
         
         <div class="col-md-6">
-            <table class="well table table-borderless" height="300">
-                <tbody>
-                    <tr>
-                        <td rowspan="3" colspan="2">
-                            <img class="img-home" src="img/01.jpg">
-                        </td>
-                        <td>Nama Barang</td>
-                        <td width="1"> : </td>
-                        <td>Wooden Poster</td>
-                    </tr>
-                    <tr>
-                        <td>Harga</td>
-                        <td width="1"> : </td>
-                        <td>100,000</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <a href="page-stuff" class="btn btn-info btn-sm">
-                                <i class="fa fa-info"></i>
-                                 Detail Barang
-                            </a>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <img src="img/01.jpg" id="img-block">
+            <div class="text-block"> 
+                <h4 class="text-white-50 bg-dark">- Wooden Poster -</h4>
+                <button type="button" class="btn btn-info"><i class="fa fa-info"></i> Detail Barang</button>
+            </div>
         </div>
         
         <div class="col-md-6">
-            <table class="table table-borderless" height="300">
-                <tbody>
-                    <tr>
-                        <td rowspan="3" colspan="2">
-                            <img class="img-home" src="img/02.jpg">
-                        </td>
-                        <td>Nama Barang</td>
-                        <td width="1"> : </td>
-                        <td>Bracelet</td>
-                    </tr>
-                    <tr>
-                        <td>Harga</td>
-                        <td width="1"> : </td>
-                        <td>100,000</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <a href="page-stuff" class="btn btn-info btn-sm">
-                                <i class="fa fa-info"></i>
-                                 Detail Barang
-                            </a>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <img src="img/02.jpg" id="img-block">
+            <div class="text-block"> 
+                <h4 class="text-white-50 bg-dark">- Bracelet -</h4>
+                <button type="button" class="btn btn-info"><i class="fa fa-info"></i> Detail Barang</button>
+            </div>
         </div>
         
         <div class="col-md-6">
-            <table class="table table-borderless" height="300">
-                <tbody>
-                    <tr>
-                        <td rowspan="3" colspan="2">
-                            <img class="img-home" src="img/03.jpg">
-                        </td>
-                        <td>Nama Barang</td>
-                        <td width="1"> : </td>
-                        <td>Leather Bracelet</td>
-                    </tr>
-                    <tr>
-                        <td>Harga</td>
-                        <td width="1"> : </td>
-                        <td>100,000</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <a href="page-stuff" class="btn btn-info btn-sm">
-                                <i class="fa fa-info"></i>
-                                 Detail Barang
-                            </a>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <img src="img/03.jpg" id="img-block">
+            <div class="text-block"> 
+                <h4 class="text-white-50 bg-dark">- Leather Bracelet -</h4>
+                <button type="button" class="btn btn-info"><i class="fa fa-info"></i> Detail Barang</button>
+            </div>
         </div>
         
         <div class="col-md-6">
-            <table class="table table-borderless" height="300">
-                <tbody>
-                    <tr>
-                        <td rowspan="3" colspan="2">
-                            <img class="img-home" src="img/04.jpg">
-                        </td>
-                        <td>Nama Barang</td>
-                        <td width="1"> : </td>
-                        <td>Key Chain</td>
-                    </tr>
-                    <tr>
-                        <td>Harga</td>
-                        <td width="1"> : </td>
-                        <td>100,000</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <a href="page-stuff" class="btn btn-info btn-sm">
-                                <i class="fa fa-info"></i>
-                                 Detail Barang
-                            </a>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <img src="img/04.jpg" id="img-block">
+            <div class="text-block"> 
+                <h4 class="text-white-50 bg-dark">- Key Chain -</h4>
+                <button type="button" class="btn btn-info"><i class="fa fa-info"></i> Detail Barang</button>
+            </div>
         </div>
         
     </div>
