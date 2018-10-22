@@ -72,32 +72,32 @@
         <div class="col-md-6">
             <img src="img/01.jpg" id="img-block">
             <div class="text-block"> 
-                <h4 class="text-white-50 bg-dark">- Wooden Poster -</h4>
-                <button type="button" class="btn btn-info"><i class="fa fa-info"></i> Detail Barang</button>
+                <h5 class="text-white-50 bg-dark">Wooden Poster</h5>
+                <a href="page-stuff"><button type="button" class="btn btn-info"><i class="fa fa-info"></i> Detail Barang</button></a>
             </div>
         </div>
         
         <div class="col-md-6">
             <img src="img/02.jpg" id="img-block">
             <div class="text-block"> 
-                <h4 class="text-white-50 bg-dark">- Bracelet -</h4>
-                <button type="button" class="btn btn-info"><i class="fa fa-info"></i> Detail Barang</button>
+                <h5 class="text-white-50 bg-dark">Bracelet</h5>
+                <a href="page-stuff"><button type="button" class="btn btn-info"><i class="fa fa-info"></i> Detail Barang</button></a>
             </div>
         </div>
         
         <div class="col-md-6">
             <img src="img/03.jpg" id="img-block">
             <div class="text-block"> 
-                <h4 class="text-white-50 bg-dark">- Leather Bracelet -</h4>
-                <button type="button" class="btn btn-info"><i class="fa fa-info"></i> Detail Barang</button>
+                <h5 class="text-white-50 bg-dark">Leather Bracelet</h5>
+                <a href="page-stuff"><button type="button" class="btn btn-info"><i class="fa fa-info"></i> Detail Barang</button></a>
             </div>
         </div>
         
         <div class="col-md-6">
             <img src="img/04.jpg" id="img-block">
             <div class="text-block"> 
-                <h4 class="text-white-50 bg-dark">- Key Chain -</h4>
-                <button type="button" class="btn btn-info"><i class="fa fa-info"></i> Detail Barang</button>
+                <h5 class="text-white-50 bg-dark">Key Chain</h5>
+                <a href="page-stuff"><button type="button" class="btn btn-info"><i class="fa fa-info"></i> Detail Barang</button></a>
             </div>
         </div>
         
